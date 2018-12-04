@@ -1,0 +1,87 @@
+.title-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    .h3-title {
+        max-width: 650px;
+        font-size: 16px;
+        font-family: MicrosoftYaHei-Bold;
+        font-weight: bold;
+        color: rgba(0, 0, 0, 1);
+        text-align: justify;
+    }
+    div {
+        width: 100px;
+        &:before {
+            margin-right: 8px;
+            vertical-align: sub;
+            content: url("../images/Column_news_icon.png");
+        }
+    }
+}
+//新闻详情页面
+.news-detail{
+    margin-bottom: 70px;
+    .title-wrapper{
+        width: 1200px;
+        flex-direction: column;
+        justify-content: center;
+        div {
+            width: 100%;
+            margin-top: 20px;
+            padding: 20px 0;
+            text-align: right;
+            border-top: 1px solid #E4E4E4;
+        }
+    }
+    &>div{
+        margin-top: 15px;
+        color: #999999;
+    }
+}
+
+.gallery-top{
+    width: 785px;
+    .swiper-slide{
+        width: 785px;
+        height: 560px;
+        -webkit-background-size: contain;
+        background-size: contain;
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+}
+
+.suoluetu{
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    border-top: 1px solid #E4E4E4;
+    padding-top: 30px;
+    .swiper-button-prev,.swiper-button-next{
+        width: 18px;
+        height: 67px;
+        background-size: 18px 67px;
+        top: 54%;
+    }
+    .swiper-button-prev{
+        background-image: url(../images/Picture_news_perv.jpg);
+        left: 179px;
+    }
+    .swiper-button-next{
+        background-image: url(../images/Picture_news_next.jpg);
+        right: 180px;
+    }
+}
+.gallery-thumbs{
+    width: 785px;
+    .swiper-slide{
+        width: 114px !important;
+        height: 82px;
+        -webkit-background-size: cover;
+        background-size: cover;
+        background-position: center center;
+    }
+}

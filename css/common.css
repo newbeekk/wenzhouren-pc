@@ -1,0 +1,287 @@
+.news, .collection-body, .activeAndGuide, .foot-wrapper,.news-detail,.organization,.notice-bulletin,.memorabilia,.digital-exhibition,.digital-ww,.digital_ww_wrapper,.collection-search,.collection-zj,.volunter,.tour-guide,.online-booking,.questionnaire-investigation,.audience-message,.zhanlan-item,.zhanpin,.social-service,.social-activity{
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+.title-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;}
+.title-wrapper div {
+    font-size: 13px;
+    font-family: MicrosoftYaHei-Bold;
+    font-weight: bold;
+}
+
+/*指南中的类似样式*/
+.form-title{
+    width: 170px;
+    font-size: 24px;
+    font-weight: 400;
+    color: #333333;
+    line-height: 22px;
+    border-bottom: 2px solid #F6AC2B;
+    padding: 40px 0 15px 0;
+    margin-bottom: 50px;
+}
+.form-item-title{
+    font-size:16px;
+    font-family:MicrosoftYaHei-Bold;
+    font-weight:bold;
+    color:rgba(255,255,255,1);
+    line-height:18px;
+    padding: 10px 20px;
+    background-color: #F6AC2B;
+}
+
+/*view样式*/
+.view {
+width: 52px;
+height: 14px;
+font-size: 14px;
+font-weight: 400;
+text-decoration: underline;
+color: rgba(255, 255, 255, 1);
+opacity: 0.5;
+}
+
+/*h1大标题样式*/
+
+.h1-title {
+font-family: MicrosoftYaHei-Bold;
+font-weight: bold;
+color: rgba(51, 51, 51, 1);
+display: flex;
+flex-direction: row;
+align-items: center;
+
+}
+
+.h1-title b {
+margin-right: 15px;
+display: inline-block;
+width: 5px;
+height: 28px;
+background: rgba(214, 0, 101, 1);
+}
+
+.h5-title {
+font-size: 15px;
+font-weight: 400;
+color: rgba(0, 0, 0, 1);
+padding: 26px 5px 20px;
+}
+
+.normal_text {
+font-size: 12px;
+font-weight: 400;
+color: rgba(153, 153, 153, 1);
+line-height: 18px;
+padding: 0 5px;
+text-align: justify;
+}
+
+.limit-line{
+overflow: hidden;
+text-overflow: ellipsis;
+white-space: nowrap;
+}
+
+.limit-3line {
+overflow: hidden;
+text-overflow: ellipsis;
+display: -webkit-box;
+-webkit-line-clamp: 3;
+-webkit-box-orient: vertical;
+}
+
+.limit-2line {
+overflow: hidden;
+text-overflow: ellipsis;
+display: -webkit-box;
+-webkit-line-clamp: 2;
+-webkit-box-orient: vertical;
+}
+
+/*图片新闻布局样式*/
+.pic-wrapper {
+margin-top: 20px;
+display: flex;
+flex-direction: row;
+align-items: center;
+}
+.news-pic {
+width: 21.83%;
+margin-right: 4.22%;
+}
+
+.news-pic:nth-child(4n){
+margin-right: 0;
+}
+
+.top-pic {
+position: relative;
+width: 100%;
+height: 0;
+padding-bottom: 87.40%;
+}
+
+.top-pic img {
+position: absolute;
+width: 100%;
+height: 100%;
+}
+
+a.more {
+padding-right: 5px;
+color: #D60065;
+font-size: 12px;
+font-weight: 400;
+}
+
+/*导航*/
+#head {
+height: 350px;
+}
+
+header {
+width: 1200px;
+height: 100px;
+margin: 0 auto;
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+}
+
+.nav {
+margin-left: 147px;
+overflow: hidden;
+width: 815px;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+}
+
+.nav li a {
+font-size: 16px;
+font-weight: 400;
+color: rgba(51, 51, 51, 1);
+}
+
+.banner {
+width: 100%;
+height: 250px;
+background: url("../uploadfiles/Column_banner2.jpg") no-repeat center;
+-webkit-background-size: cover;
+background-size: cover;
+}
+
+/*二级导航*/
+.sup_nav_wrapper {
+width: 100%;
+height: 50px;
+background: rgba(238, 238, 238, 1);
+}
+
+.sup_nav_wrapper > div {
+width: 1200px;
+margin: 0 auto;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+}
+
+.sup_nav_left {
+width: 600px;
+}
+
+.sup_nav {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+}
+
+.sup_nav li {
+    width: 116px;
+    line-height: 50px;
+    text-align: center;
+    color: #888888;
+    cursor: pointer;
+}
+
+.sup_nav li.active {
+    background: rgba(246, 172, 43, 1);
+    color: #ffffff;
+}
+
+.sup_nav_right {
+    width: 600px;
+}
+.crumb_nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+.crumb_nav li{
+    margin-right: 15px;
+    color: #bbbbbb;
+}
+.crumb_nav li.active{
+    color: #888888;
+}
+/*二级导航结束*/
+/*二级导航点击对应的显示模块*/
+.sup_body_wrapper>div.nav_wra{
+    display: none;
+}
+.sup_body_wrapper>div.defaul-show{
+    display: block;
+}
+/*二级导航点击对应的显示模块结束*/
+/*footer*/
+footer {
+    background-color: #000;
+    width: 100%;
+
+}
+
+.foot-wrapper {
+    height: 160px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0;
+}
+
+.footer-logo {
+    width: 271px;
+    height: 80px;
+    background: url("../images/footer_logo.png");
+}
+
+.copyRight {
+    text-align: end;
+    color: #999999;
+}
+
+.copyRight select {
+    color: #999999;
+    background-color: #000000;
+    width: 200px;
+    border-radius: 3px;
+    padding: 5px 20px;
+}
+
+.copyRight p {
+    line-height: 24px;
+    font-size: 14px;
+    padding-top: 10px;
+}
+

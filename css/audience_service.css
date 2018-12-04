@@ -1,0 +1,166 @@
+@charset "UTF-8";
+.sup_nav_right {
+  width: 1500px; }
+
+.banner {
+  background: url("../uploadfiles/Column_banner5.jpg") no-repeat center; }
+
+.paginations {
+  padding-top: 30px;
+  width: 500px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+  .paginations .pagina {
+    margin-right: 5px; }
+  .paginations .num-pagination {
+    width: 34px;
+    height: 34px;
+    line-height: 34px;
+    background: white;
+    border: 1px solid #e9e9e9;
+    border-radius: 3px;
+    text-align: center; }
+    .paginations .num-pagination.active {
+      background: #F6AC2B; }
+  .paginations .pagination {
+    width: 69px;
+    height: 34px;
+    background: white;
+    border: 1px solid #e9e9e9;
+    border-radius: 3px;
+    text-align: center;
+    line-height: 34px;
+    cursor: pointer; }
+
+.wrapper {
+  background: #F5F5F5;
+  padding: 0 45px;
+  margin-bottom: 40px; }
+  .wrapper ol {
+    padding: 30px 0; }
+    .wrapper ol li {
+      font-size: 14px;
+      color: #333333;
+      line-height: 38px; }
+  .wrapper label {
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+    margin-bottom: 20px; }
+  .wrapper input, .wrapper select {
+    padding: 8px 5px;
+    margin-right: 20px;
+    margin-bottom: 20px; }
+  .wrapper input.small, .wrapper select {
+    width: 245px; }
+  .wrapper input.mid {
+    width: 615px; }
+  .wrapper input.big {
+    width: 770px; }
+  .wrapper textarea {
+    width: 985px;
+    height: 110px;
+    background: white;
+    border: 1px solid #999999;
+    resize: none;
+    padding: 8px 5px;
+    margin-bottom: 20px; }
+  .wrapper button {
+    width: 91px;
+    height: 34px;
+    background: #f6ac2b;
+    color: #ffffff;
+    margin-left: 90px;
+    margin-bottom: 40px; }
+
+.audience-message .title {
+  font-size: 24px;
+  color: #333333;
+  line-height: 36px;
+  border-bottom: 1px solid #E9E8EA;
+  padding-bottom: 14px;
+  margin-bottom: 30px; }
+.audience-message .message-wrapper {
+  padding: 20px;
+  background: whitesmoke; }
+  .audience-message .message-wrapper .audience-name {
+    color: #333;
+    margin-bottom: 20px; }
+    .audience-message .message-wrapper .audience-name span {
+      display: inline-block;
+      margin-left: 20px; }
+  .audience-message .message-wrapper .message {
+    font-size: 14px;
+    color: #999999;
+    line-height: 24px; }
+  .audience-message .message-wrapper .replay {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #bbbbbb;
+    line-height: 24px; }
+    .audience-message .message-wrapper .replay:before {
+      content: "—>";
+      width: 10px;
+      height: 3px;
+      color: #F6AC2B;
+      margin-right: 5px; }
+.audience-message .pinlun {
+  margin-top: 50px; }
+.audience-message .pl_area {
+  margin-bottom: 80px; }
+.audience-message textarea {
+  width: 100%;
+  height: 145px;
+  background: whitesmoke;
+  border: 1px solid #999999;
+  resize: none;
+  padding: 10px; }
+.audience-message button {
+  float: right;
+  width: 78px;
+  height: 31px;
+  background: #f6ac2b;
+  color: #fff; }
+
+.questionnaire-investigation {
+  display: none; }
+  .questionnaire-investigation .wrapper h1 {
+    font-size: 24px;
+    color: #333333;
+    line-height: 22px;
+    text-align: center;
+    padding: 50px 0 20px; }
+  .questionnaire-investigation .wrapper .qianyan {
+    width: 900px;
+    margin: 0 auto;
+    font-size: 14px;
+    color: #999999;
+    line-height: 22px;
+    text-align: center;
+    padding-bottom: 35px; }
+  .questionnaire-investigation .wrapper form {
+    width: 1000px;
+    margin: 0 auto; }
+    .questionnaire-investigation .wrapper form label.big {
+      width: 200px; }
+    .questionnaire-investigation .wrapper form input.small, .questionnaire-investigation .wrapper form select {
+      width: 210px; }
+    .questionnaire-investigation .wrapper form .btn {
+      width: 100%;
+      text-align: center; }
+    .questionnaire-investigation .wrapper form button {
+      width: 78px;
+      height: 31px;
+      background: #f6ac2b;
+      color: #ffffff;
+      margin-left: 0; }
+
+.tour-guide {
+  display: none; }
+
+.online-booking {
+  display: none; }
+
+/*# sourceMappingURL=audience_service.css.map */

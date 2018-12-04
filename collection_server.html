@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/collection.css">
+    <title>展览服务</title>
+</head>
+<body>
+<div id="head"></div>
+
+<!--二级导航-->
+<div class="sup_nav_wrapper">
+    <div class="nav_wra">
+        <div class="sup_nav_left">
+            <ul class="sup_nav">
+                <li class="active">藏品检索</li>
+                <li>藏品征集</li>
+            </ul>
+        </div>
+        <div class="sup_nav_right">
+            <ul class="crumb_nav">
+                <li>首页</li>
+                <li>&gt;</li>
+                <li>藏品服务</li>
+                <li>&gt;</li>
+                <li class="active changeTxet">藏品检索</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="sup_body_wrapper">
+    <!--藏品检索-->
+    <div class="collection-search defaul-show">
+        <form action="" id="search-form">
+            <input id="uersInput" type="text" placeholder="请输入关键词">
+            <button>搜索</button>
+        </form>
+        <div class="select-item">
+            <div class="years">
+                <ul>
+                    <li class="title">选择年代：</li>
+                    <li>旧石器时代</li>
+                    <li>新石器时代</li>
+                    <li>商</li>
+                    <li>夏</li>
+                    <li>周</li>
+                    <li>周西周</li>
+                </ul>
+            </div>
+            <div class="level">
+                <ul>
+                    <li class="title">选择级别：</li>
+                    <li>一级</li>
+                    <li>二级</li>
+                    <li>三级</li>
+                </ul>
+            </div>
+            <div class="items">
+                <ul>
+                    <li class="title">选择类别：</li>
+                    <li>金银器</li>
+                    <li>铜器</li>
+                    <li>铁器</li>
+                    <li>瓷器</li>
+                    <li>钱币</li>
+                    <li>书法</li>
+                    <li>织绣</li>
+                    <li>绘画</li>
+                    <li>档案文书</li>
+                </ul>
+            </div>
+        </div>
+        <div class="exhibition-body">
+            <div class="digital-exhi">
+                <a href="collection_appre_detail.html">
+                    <div class="pic"><img src="uploadfiles/Exhibition_img15.jpg" alt=""></div>
+                    <div class="intro">南宋龙泉窑青瓷五管瓶</div>
+                </a>
+            </div>
+            <div class="digital-exhi">
+                <a href="###">
+                    <div class="pic"><img src="uploadfiles/Exhibition_img16.jpg" alt=""></div>
+                    <div class="intro">南宋龙泉窑青瓷五管瓶</div>
+                </a>
+            </div>
+            <div class="digital-exhi">
+                <a href="###">
+                    <div class="pic"><img src="uploadfiles/Exhibition_img17.jpg" alt=""></div>
+                    <div class="intro">南宋龙泉窑青瓷五管瓶</div>
+                </a>
+            </div>
+            <div class="digital-exhi">
+                <a href="###">
+                    <div class="pic"><img src="uploadfiles/Exhibition_img18.jpg" alt=""></div>
+                    <div class="intro">南宋龙泉窑青瓷五管瓶</div>
+                </a>
+            </div>
+            <div class="digital-exhi">
+                <a href="###">
+                    <div class="pic"><img src="uploadfiles/Exhibition_img19.jpg" alt=""></div>
+                    <div class="intro">南宋龙泉窑青瓷五管瓶</div>
+                </a>
+            </div>
+            <div class="digital-exhi">
+                <a href="###">
+                    <div class="pic"><img src="uploadfiles/Exhibition_img20.jpg" alt=""></div>
+                    <div class="intro">南宋龙泉窑青瓷五管瓶</div>
+                </a>
+            </div>
+        </div>
+        <div class="paginations">
+            <div class="pagina shouye pagination">首页</div>
+            <div class="pagina num-pagination active">1</div>
+            <div class="pagina next pagination">下一页</div>
+            <div class="pagina weiye pagination">尾页</div>
+        </div>
+    </div>
+
+    <!--藏品征集-->
+    <div class="collection-zj">
+        <h1>藏品征集</h1>
+        <form action="" id="zj-form">
+            <label for="coll-name">文物名称：
+            </label>
+            <input type="text" id="coll-name">
+            <label for="coll-year">文物年代：
+            </label>
+            <input type="text" id="coll-year">
+            <label for="coll-item">文物类别：
+            </label>
+            <select name="" id="coll-item">
+                <option value="">--请选择--</option>
+                <option value="">乐器</option>
+                <option value="">书法</option>
+            </select>
+            <label for="coll-intro">展品介绍：</label>
+            <textarea name="" id="coll-intro"></textarea>
+            <label for="update-img">上传图片：</label>
+            <input type="text" id="update-img">
+            <label for="userName" style="width: 70px;text-align: right;margin-top: 20px;">姓名：</label>
+            <input type="text" id="userName">
+            <label for="userPhone" style="margin-top: 20px;">联系电话：</label>
+            <input type="text" id="userPhone">
+            <label for="message">上传图片：</label>
+            <textarea name="" id="message"></textarea>
+        </form>
+        <div class="btns">
+            <button class="submit">提交</button>
+            <button class="cansle">重置</button>
+        </div>
+    </div>
+
+</div>
+
+<!--foot-->
+<div id="foot"></div>
+
+<script src="js/jquery.js"></script>
+<script src="js/swiper.min.js"></script>
+<script src="js/erji.js"></script>
+<script>
+</script>
+</body>
+</html>

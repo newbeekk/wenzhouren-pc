@@ -1,0 +1,28 @@
+<footer>
+    <div class="foot-wrapper">
+        <div class="footer-logo"></div>
+        <div class="copyRight">
+            <label for="fridenly">友情链接：</label>
+            <select onchange=goTo(this) name="" id="">
+                <option value="">--请选择--</option>
+                <option value="https://www.wzmuseum.cn/">温州市博物馆</option>
+                <option value="http://www.zhejiangmuseum.com/zjbwg/index.html">浙江省博物馆</option>
+            </select>
+            <p>copyright © 2018 世界温州人博物馆. 浙ICP备88888888号. </p>
+            <p>地址：温州市滨江商务区 联系电话：0577-56988280 邮箱：888888888@qq.com 传真：0577-56988280</p>
+        </div>
+    </div>
+</footer>
+
+<script src="js/jquery.js"></script>
+<script>
+//    <!--友情链接-->
+    function goTo(val) {
+        var url =val.options[val.selectedIndex].value;
+        if (url != "") {
+            open(url,'_blank');
+            val.selectedIndex=0;
+            val.blur();
+        }
+    }
+</script>

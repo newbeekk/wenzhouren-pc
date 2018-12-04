@@ -1,0 +1,127 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  
+  *, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td, hr, button, article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    margin: 0;
+    padding: 0;
+  }
+  
+  article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+    display: block;
+  }
+  
+  audio, canvas, video {
+    display: inline-block;
+  }
+  
+  img {
+    border: none;
+    vertical-align: middle;
+  }
+  a{
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: none;
+  }
+  
+  ul, ol {
+    list-style: none;
+  }
+  
+  .clear {
+    *zoom: 1; /* for IE 6/7 */
+  }
+  
+  .fl {
+    float: left;
+  }
+  
+  .fr {
+    float: right;
+  }
+  
+  .clear:before, .clear:after {
+    height: 0;
+    content: "";
+    font-size: 0;
+    display: table;
+    line-height: 0; /* for Opera */
+    visibility: hidden;
+  }
+  
+  .clear:after {
+    clear: both;
+  }
+  button{
+    border:none;
+    cursor:pointer;
+    outline: none;
+  }
+  body {
+    font-size: 14px;
+    color: #666;
+    font-family: "Microsoft YaHei", "微软雅黑", Helvetica, Tahoma, STXihei, "华文细黑", STHeiti, "Helvetica Neue", Helvetica, Tahoma, "Droid Sans", "wenquanyi micro hei", FreeSans, Arimo, Arial, SimSun, "宋体", Heiti, "黑体", sans-serif;
+    background: #fff;
+  }
+  
+  html, body{
+    height: 100%;
+    overflow-x: hidden;
+  }
+
+
+/* 滚动条美化 */
+::-webkit-scrollbar {
+  /*滚动条整体部分，其中的属性有width,height,background,border（就和一个块级元素一样）等*/
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 5px;
+  border-radius: 10px;
+}
+
+
+::-webkit-scrollbar-button {
+  /*滚动条两端的按钮。可以用display:none让其不显示，也可以添加背景图片，颜色改变显示效果。*/
+  display: none;
+}
+
+::-webkit-scrollbar-track {
+  /*外层轨道。可以用display:none让其不显示，也可以添加背景图片，颜色改变显示效果。*/
+  display: none;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-track-piece {
+  /*内层轨道，滚动条中间部分（除去）。*/
+  background-color: rgba(255, 255, 255, .1);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  /*滚动条里面可以拖动的那部分*/
+  background-color: rgba(0, 0, 0, .3);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-corner {
+  border-radius: 10px;
+}
+
+::-webkit-resizer {
+  /*定义右下角拖动块的样式*/
+  border-radius: 10px;
+}
+
+
+
+
+
